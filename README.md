@@ -5,11 +5,11 @@
 [![License Apache2](https://img.shields.io/hexpm/l/plug.svg)](http://www.apache.org/licenses/LICENSE-2.0)
 [![Discord](https://img.shields.io/discord/685554030159593522)](https://discord.com/widget?id=685554030159593522&theme=dark)
 
-*50 minutes, Intermediate, [Start Building](#1-login-or-register-to-astradb-and-create-database)*
+*1 Hour, Intermediate, [Start Building](#1-login-or-register-to-astradb-and-create-database)*
 
-A simple **ReactJS** Netflix homepage clone running on *Astra DB* that leverages a GraphQL API with *paging* and *infinite scrolling.* The materials has been built with the collaboration of [Ania Kubow](https://www.youtube.com/channel/UC5DNytAJ6_FISueUfzZCVsw) and Datastax developer advocates team.
 
 <!--- ENDEXCLUDE --->
+
 See the [Video Walkthrough](https://imgur.com/3ns3UJB) of what you will build!
 
 ![image](./img/ui.png)
@@ -18,7 +18,7 @@ See the [Video Walkthrough](https://imgur.com/3ns3UJB) of what you will build!
 * Deploy a Netflix clone to production
 * Learn **GraphQL API** and how to use it with a database to create the tables and navigate the data.
 * Learn about **paging** and **infinite scrolling** in web ui
-* Leverage Netlify and DataStax Astra DB
+* Leverage Netlify and Astra DB
 
 ## ℹ️ Frequently asked questions ℹ️ 
 
@@ -43,27 +43,6 @@ See the [Video Walkthrough](https://imgur.com/3ns3UJB) of what you will build!
 
 > Attending the session is not enough. You need to complete the homeworks detailed below and you will get a nice badge.
 
-## Materials for the Session
-
-It doesn't matter if you join our workshop live or you prefer to do at your own pace, we have you covered. In this repository, you'll find everything you need for this workshop:
-
-- [Slide deck](./slides/slides.pdf)
-- [Discord chat](https://bit.ly/cassandra-workshop)
-- [Questions and Answers](https://community.datastax.com/)
-
-## Homework
-
-<img src="tutorial/images/netflix-badge.png?raw=true" width="200" align="right" />
-
-Don't forget to complete your upgrade and get your verified skill badge! Finish and submit your homework!
-
-1. Complete the practice steps from this repository as described below.
-2. Insert a movie OR genre of your choice in the database (It's ok to copy an existing one, just change the name a bit so we can tell it is yours).
-3. Make a screenshot showing us your deployed production Netflix clone up in Netlify (with your new movie/genre in the image) OR drop the link to your deployed Netlify site. Please ensure to tell us the name of the new movie or genre you added so we can grade your homework more quickly.
-4. (Optional extra credit) Watch the 2 hour Ania video [HERE](#video-tutorial-with-ania-kubow), build the app yourself, and show us the completed app.
-5. Submit your homework [here](https://dtsx.io/homework-graphql-netflix)
-
-That's it, you are done! Expect an email next week!
   
 # Let's start
 
@@ -89,16 +68,6 @@ That's it, you are done! Expect an email next week!
 6. [Configure Environment Variables and Install Dependencies](#6-configure-environment-variables-and-install-dependencies)
 7. [Launch your app](#7-launch-your-app)
 
-### Extra resources
-[Intro to GraphQL Workshop](https://github.com/datastaxdevs/workshop-intro-to-graphql)
-
-[React starter using NPX](https://github.com/datastaxdevs/react-basics)
-
-[React ToDo app](https://github.com/datastaxdevs/appdev-week1-todolist)
-
-[What is JamStack?](https://github.com/datastaxdevs/workshop-battlestax/blob/master/README_JAM.md)
-
-[Video tutorial with Ania Kubow](#video-tutorial-with-ania-kubow)
 
 # Part 1 - DB Setup & Data Ingest
 
@@ -740,15 +709,6 @@ npm install
   * The application should automatically launch in the GitPod preview pane
 
 
-# Extra resources
-
-## Video tutorial with Ania Kubow
-Thank you to our wonderful friend Ania Kubow for producing the Netflix clone. If you are not aware of Ania and love learning about coding you should absolutely check out her YouTube channel listed below.
-
-While we focused on getting you up and running to production with Astra DB and Netlify, Ania's video will dig into more details on the app itself. Check it out to dig in more.
-
-[Ania's Netflix Video](https://www.youtube.com/watch?v=g8COh40v2jU)
-
 # Want to Deploy the Netflix Clone?
 
 Follow these steps to Deploy the Netflix clone to your own Netlify site!
@@ -764,7 +724,7 @@ Follow these steps to Deploy the Netflix clone to your own Netlify site!
 
 - Click the button to deploy
 
-  [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/datastaxdevs/workshop-graphql-netflix)
+  [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/TravelXML/NETFLIX-CLONE-WITH-ASTRADB-GRAPHQL)
  * <details><summary>Show me!</summary>
     <img src="tutorial/images/deploy-to-netlify.gif?raw=true" />
     </details>
@@ -888,3 +848,7 @@ Now that you've hooked everything up, time to deploy to production.
   
   You've deployed your app to Netlify!
   ![Netlify Setup Example](./tutorial/images/prodDeploy.png?raw=true)
+  
+  Finally open [https://serverlessnetflixclone.netlify.app/](https://serverlessnetflixclone.netlify.app/)
+  
+  Enjoy Coding!
