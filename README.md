@@ -77,8 +77,7 @@ _Make sure to chose a password with minimum 8 characters, containing upper and l
 
 <a href="https://astra.dev/12-3"><img src="img/create_astra_db.png?raw=true" /></a>
 - <details><summary>Show me!</summary>
-    <img src="https://github.com/TravelXML/NETFLIX-CLONE-WITH-ASTRADB-GRAPHQL/blob/main/tutorial/images/astra-create-db.gif
-?raw=true" />
+    <img src="https://github.com/TravelXML/NETFLIX-CLONE-WITH-ASTRADB-GRAPHQL/blob/main/tutorial/images/astra-create-db.gif" />
 </details>
 
 
