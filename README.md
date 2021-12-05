@@ -7,6 +7,12 @@
 # Create Netflix Clone in 1 Hour
 [Let's Start Building](#1-login-or-register-to-astradb-and-create-database)
 
+## Technology Stack ##
+
+* Node
+* GraphQL
+* Cassandra - Astra DB
+
 
 <!--- ENDEXCLUDE --->
 
