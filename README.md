@@ -18,7 +18,7 @@
 
 See the [Video Walkthrough](https://imgur.com/3ns3UJB) of what you will build!
 
-![image](./img/ui.png)
+![image](https://github.com/TravelXML/NETFLIX-CLONE-WITH-ASTRADB-GRAPHQL/blob/main/tutorial/images/Header.png)
 
 ## 🎯 Objectives
 * Deploy a Netflix clone to production
