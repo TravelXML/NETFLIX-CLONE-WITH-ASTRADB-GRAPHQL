@@ -430,7 +430,7 @@ To download the DATASET, right-click (or CTRL + Click to open in new tab) the bu
 > *If the file opens in the browser save it with the name `movies_by_genre.csv`. This is important as the filename will be the table name.*
 
 <p align="left">
-<a href="https://github.com/TravelXML/NETFLIX-CLONE-WITH-ASTRADB-GRAPHQL/blob/main/tutorial/images/movies_by_genre.csv">
+<a href="https://raw.githubusercontent.com/TravelXML/NETFLIX-CLONE-WITH-ASTRADB-GRAPHQL/main/tutorial/images/movies_by_genre.csv?raw=true">
  <img src="https://dabuttonfactory.com/button.png?t=Download Dataset&f=Roboto-Bold&ts=20&tc=fff&hp=20&vp=15&c=11&bgt=unicolored&bgc=15d798" />
 </a>
 </p>
