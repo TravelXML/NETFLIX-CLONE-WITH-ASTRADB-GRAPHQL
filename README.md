@@ -77,8 +77,10 @@ _Make sure to chose a password with minimum 8 characters, containing upper and l
 
 <a href="https://astra.dev/12-3"><img src="img/create_astra_db.png?raw=true" /></a>
 - <details><summary>Show me!</summary>
-    <img src="https://github.com/datastaxdevs/workshop-spring-stargate/raw/main/images/tutorials/astra-create-db.gif?raw=true" />
+    <img src="https://github.com/TravelXML/NETFLIX-CLONE-WITH-ASTRADB-GRAPHQL/blob/main/tutorial/images/astra-create-db.gif
+?raw=true" />
 </details>
+
 
 **Use the following values when creating the database**
 |Field| Value|
@@ -428,7 +430,7 @@ To download the DATASET, right-click (or CTRL + Click to open in new tab) the bu
 > *If the file opens in the browser save it with the name `movies_by_genre.csv`. This is important as the filename will be the table name.*
 
 <p align="left">
-<a href="https://raw.githubusercontent.com/datastaxdevs/appdev-week3-graphql/main/data/movies_by_genre.csv">
+<a href="https://github.com/TravelXML/NETFLIX-CLONE-WITH-ASTRADB-GRAPHQL/blob/main/tutorial/images/movies_by_genre.csv">
  <img src="https://dabuttonfactory.com/button.png?t=Download Dataset&f=Roboto-Bold&ts=20&tc=fff&hp=20&vp=15&c=11&bgt=unicolored&bgc=15d798" />
 </a>
 </p>
@@ -493,7 +495,7 @@ As you can see the operation here is asynchronous. About a minute later your wil
 
 * _Supported by <img src="tutorial/images/chrome-logo.svg" height="20"/> Chrome and <img src="tutorial/images/firefox-logo.svg" height="20"/> Firefox_
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/datastaxdevs/workshop-graphql-netflix)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/TravelXML/NETFLIX-CLONE-WITH-ASTRADB-GRAPHQL)
 
    
 ℹ️ _It may take minutes (approx. 3-5) for GitPod to fully initialize._
