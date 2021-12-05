@@ -24,7 +24,7 @@ See the [Video Walkthrough](https://imgur.com/3ns3UJB) of what you will build!
 
 - *Can I run this Project on my computer?*
 
-> There is nothing preventing you from running the workshop on your own machine.
+> There is nothing preventing you from running the project on your own machine.
 > If you do so, you will need
 > * git installed on your local system
 > * [node 15 and npm 7 or later](https://www.whitesourcesoftware.com/free-developer-tools/blog/update-node-js/)
