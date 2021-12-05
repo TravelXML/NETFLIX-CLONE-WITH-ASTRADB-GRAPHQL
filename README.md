@@ -2,7 +2,7 @@
 # Netflix Clone using Astra DB and GraphQL 
 
 <a href="https://github.com/TravelXML/NETFLIX-CLONE-WITH-ASTRADB-GRAPHQL" target=”_blank”>
-  <img align="center" src="https://github.com/TravelXML/NETFLIX-CLONE-WITH-ASTRADB-GRAPHQL/blob/main/tutorial/images/netflix-clone-astradb-graphql-node.png" alt="Netflix clone" />
+  <img align="center" src="https://github.com/TravelXML/NETFLIX-CLONE-WITH-ASTRADB-GRAPHQL/blob/main/tutorial/images/netflix-clone-astradb-graphql-node.png" alt="Netflix Clone" height="300" width="150" />
 </a>
 
 <span align="right">[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/from-referrer/)[![License Apache2](https://img.shields.io/hexpm/l/plug.svg)](http://www.apache.org/licenses/LICENSE-2.0)</span>
