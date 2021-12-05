@@ -5,7 +5,7 @@
 [![License Apache2](https://img.shields.io/hexpm/l/plug.svg)](http://www.apache.org/licenses/LICENSE-2.0)
 
 # Create Netflix Clone in 1 Hour
-[Let's Start Building](#1-login-or-register-to-astradb-and-create-database)*
+[Let's Start Building](#1-login-or-register-to-astradb-and-create-database)
 
 
 <!--- ENDEXCLUDE --->
