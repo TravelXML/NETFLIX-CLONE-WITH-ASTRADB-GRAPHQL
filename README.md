@@ -41,11 +41,7 @@ See the [Video Walkthrough](https://imgur.com/3ns3UJB) of what you will build!
 - *What other prerequisites are there?*
 > * You will need a github account
 > * You will also need Netlify and Astra DB accounts, but we'll work through that in the exercises
-> * Use **Chrome** or **Firefox** for the best experience. Other browsers are great, but don't work well with the GitPod integration we use a bit later.
-
-
- 
-# Let's start
+> * Use <img src="tutorial/images/chrome-logo.svg" height="20"/> Chrome or <img src="tutorial/images/firefox-logo.svg" height="20"/> Firefox for the best experience. Other browsers are great, but don't work well with the GitPod integration we use a bit later.
 
 ## Table of contents
 
