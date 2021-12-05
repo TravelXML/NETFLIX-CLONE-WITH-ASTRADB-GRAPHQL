@@ -4,7 +4,8 @@
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/from-referrer/)
 [![License Apache2](https://img.shields.io/hexpm/l/plug.svg)](http://www.apache.org/licenses/LICENSE-2.0)
 
-*1 Hour, Intermediate, [Start Building](#1-login-or-register-to-astradb-and-create-database)*
+# Create Netflix Clone in 1 Hour
+[Let's Start Building](#1-login-or-register-to-astradb-and-create-database)*
 
 
 <!--- ENDEXCLUDE --->
