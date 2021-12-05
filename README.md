@@ -1,5 +1,5 @@
 <!--- STARTEXCLUDE --->
-# 🎓 Netflix Clone using Astra DB and GraphQL
+# Netflix Clone using Astra DB and GraphQL
 
 ![image](https://github.com/TravelXML/NETFLIX-CLONE-WITH-ASTRADB-GRAPHQL/blob/main/tutorial/images/Header.png)
 
