@@ -106,9 +106,9 @@ The status will change to `Active` when the database is ready, this will only ta
 ✅  **Step 2b:**  Copy the token value (eg `AstraCS:KDfdKeNREyWQvDpDrBqwBsUB:ec80667c....`) in your clipboard and save the CSV, this value would not be provided afterward.
 
 **👁️ Expected output**
-- <details><summary>Show me!</summary>
-    <img src="img/astra-create-token.gif?raw=true" />
-</details>
+
+    <img src="https://github.com/TravelXML/NETFLIX-CLONE-WITH-ASTRADB-GRAPHQL/img/astra-create-token.gif?raw=true" />
+
 
 [🏠 Back to Table of Contents](#table-of-contents)
 
@@ -341,7 +341,7 @@ mutation insertMovies {
 ```
 
 *👁️ Expected output*
-![image](img/graphql-playground-5.png?raw=true)
+![image](https://github.com/TravelXML/NETFLIX-CLONE-WITH-ASTRADB-GRAPHQL/img/graphql-playground-5.png?raw=true)
 
 > ℹ️ You can find more movie data in the `data` folder, however, we will be doing a bulk import of all this data shortly.
 
@@ -368,7 +368,7 @@ query getMovieAction {
 ```
 
 *👁️ Expected output*
-![image](img/graphql-playground-6.png?raw=true)
+![image](https://github.com/TravelXML/NETFLIX-CLONE-WITH-ASTRADB-GRAPHQL/img/graphql-playground-6.png?raw=true)
 
 ✅ **Step 8b Enable paging:** For small datasets you can retrieve all values in the table but for performance or network reasons you need to perform paging. Let's do same query as before now asking for a `page size to 2`
 
@@ -392,7 +392,7 @@ query getMovieAction {
 
 *👁️ Expected output*
 
-![image](tutorial/images/playground-2.png?raw=true)
+![image](https://github.com/TravelXML/NETFLIX-CLONE-WITH-ASTRADB-GRAPHQL/tutorial/images/playground-2.png?raw=true)
 
 ✅ **Step 8c: Fetch next page paging:**  Notice that `pageState` is also now returned. Let's use it to fetch the next 2 items (next page). Edit the next query to replace your own pageState `YOUR_PAGE_STATE`
 
@@ -416,7 +416,7 @@ query getMovieAction {
  
 *👁️ Expected output*
 
-![image](tutorial/images/playground-3.png?raw=true)
+![image](https://github.com/TravelXML/NETFLIX-CLONE-WITH-ASTRADB-GRAPHQL/tutorial/images/playground-3.png?raw=true)
 
 [🏠 Back to Table of Contents](#table-of-contents)
 
@@ -438,13 +438,13 @@ To download the DATASET, right-click (or CTRL + Click to open in new tab) the bu
 
 - Locate the `Load Data` button to open the Data Loader.
 
-![image](tutorial/images/import-movies-0.png?raw=true)
+![image](https://github.com/TravelXML/NETFLIX-CLONE-WITH-ASTRADB-GRAPHQL/tutorial/images/import-movies-0.png?raw=true)
 
 ✅ **Step 9c: Upload the dataset**
 
 Click on the area Drag n drop a single file and look for the file `movies_by_genre.csv` on your machine, this file has been downloaded in step 9b.
 
-![image](tutorial/images/import-movies-1.png?raw=true)
+![image](https://github.com/TravelXML/NETFLIX-CLONE-WITH-ASTRADB-GRAPHQL/tutorial/images/import-movies-1.png?raw=true)
 
 Once the file has been upload notive the `Upload Successful` message in green. You can now click `NEXT`
 
@@ -452,17 +452,17 @@ Once the file has been upload notive the `Upload Successful` message in green. Y
 
 - Locate the field Table Name and make sure it is set to `movies_by_genre`
 
-![image](tutorial/images/import-movies-2.png?raw=true)
+![image](https://github.com/TravelXML/NETFLIX-CLONE-WITH-ASTRADB-GRAPHQL/tutorial/images/import-movies-2.png?raw=true)
 
 - In `Keys and Clustering` section enter `genre` as the partition key.
 
-![image](tutorial/images/import-movies-4.png?raw=true)
+![image](https://github.com/TravelXML/NETFLIX-CLONE-WITH-ASTRADB-GRAPHQL/tutorial/images/import-movies-4.png?raw=true)
 
 You can now click on `NEXT` to move forward.
 
 ✅ **Step 9e: Define target database**
 
-![image](tutorial/images/import-movies-3.png?raw=true)
+![image](https://github.com/TravelXML/NETFLIX-CLONE-WITH-ASTRADB-GRAPHQL/tutorial/images/import-movies-3.png?raw=true)
 
 Select the database we are currently using:
 
@@ -477,11 +477,11 @@ and click next to start the process asynchronously.
 
 After a few seconds (about 30s) ,you will get an email informing you that the batch has been scheduled.
 
-![image](tutorial/images/import-movies-5.png?raw=true)
+![image](https://github.com/TravelXML/NETFLIX-CLONE-WITH-ASTRADB-GRAPHQL/tutorial/images/import-movies-5.png?raw=true)
 
 As you can see the operation here is asynchronous. About a minute later your will get another email to tell you the data has been inserted.
 
-![image](tutorial/images/import-movies-6.png?raw=true)
+![image](https://github.com/TravelXML/NETFLIX-CLONE-WITH-ASTRADB-GRAPHQL/tutorial/images/import-movies-6.png?raw=true)
 
 **Congratulations, the Database is SET !!!**
 
@@ -492,7 +492,7 @@ As you can see the operation here is asynchronous. About a minute later your wil
 ## 1. Launch GitPod IDE
 - Click the button to launch the GitPod IDE.
 
-* _Supported by <img src="tutorial/images/chrome-logo.svg" height="20"/> Chrome and <img src="tutorial/images/firefox-logo.svg" height="20"/> Firefox_
+* _Supported by <img src="https://github.com/TravelXML/NETFLIX-CLONE-WITH-ASTRADB-GRAPHQL/tutorial/images/chrome-logo.svg" height="20"/> Chrome and <img src="https://github.com/TravelXML/NETFLIX-CLONE-WITH-ASTRADB-GRAPHQL/tutorial/images/firefox-logo.svg" height="20"/> Firefox_
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/TravelXML/NETFLIX-CLONE-WITH-ASTRADB-GRAPHQL)
 
@@ -664,9 +664,9 @@ Now that we know how the front-end works, let's launch our app!
  npm install -g netlify-cli
 ```
 
- * <details><summary>Show me!</summary>
-    <img src="tutorial/images/netlify-install-cli.png?raw=true" />
-    </details>
+
+    <img src="https://github.com/TravelXML/NETFLIX-CLONE-WITH-ASTRADB-GRAPHQL/tutorial/images/netlify-install-cli.png?raw=true" />
+   
 
 ## 5. Retrieve application token to securely connect to the database
 
@@ -687,7 +687,7 @@ ASTRA_DB_APPLICATION_TOKEN=REPLACE_ME
 ASTRA_GRAPHQL_ENDPOINT=REPLACE_ME
 ```
 
-![env-file](tutorial/images/env_file.png)
+![env-file](https://github.com/TravelXML/NETFLIX-CLONE-WITH-ASTRADB-GRAPHQL/tutorial/images/env_file.png)
 
 
 👩‍💻  Install all the packages
@@ -727,42 +727,41 @@ Follow these steps to Deploy the Netflix clone to your own Netlify site!
 This will take a few minutes.
 
   * If there is an existing account in Netlify, make sure the Netlify account settings show that it's connected to the appropriate git repository,
-    <details>
-    <summary>Show me! </summary>
-    <img src="tutorial/images/netlify-connect-01.png" />
-    </details>
+  
+  
+    <img src="https://github.com/TravelXML/NETFLIX-CLONE-WITH-ASTRADB-GRAPHQL/tutorial/images/netlify-connect-01.png" />
+ 
 
   * Click on `Site deploy in progress` within the Netlify UI,
-    <details>
-    <summary>Show me! </summary>
-    <img src="tutorial/images/deploy-1.png" />
-    </details>
+   
+    Show me! 
+    <img src="https://github.com/TravelXML/NETFLIX-CLONE-WITH-ASTRADB-GRAPHQL/tutorial/images/deploy-1.png" />
+ 
 
   * Click the top deploy link to see the build process.
-    <details>
-    <summary>Show me! </summary>
-    <img src="tutorial/images/deploy-2.png" />
-    </details>
+
+    Show me! 
+    <img src="https://github.com/TravelXML/NETFLIX-CLONE-WITH-ASTRADB-GRAPHQL/tutorial/images/deploy-2.png" />
+   
 
   * Wait until the build complete `Netlify Build Complete`,  **When you see Pushing to repository** you're ready to move on.
     <details>
-    <summary>Show me! </summary>
-    <img src="tutorial/images/deploy-3.png" />
-    </details>
+    Show me! 
+    <img src="https://github.com/TravelXML/NETFLIX-CLONE-WITH-ASTRADB-GRAPHQL/tutorial/images/deploy-3.png" />
+  
 
   * Scroll up to the top and click on the site name (it'll be after {yourlogin}'s Team next to the Netlify button).
-    <details>
-    <summary>Show me! </summary>
-    <img src="tutorial/images/deploy-4.png" />
-    </details>
-
+ 
+    Show me! 
+    <img src="https://github.com/TravelXML/NETFLIX-CLONE-WITH-ASTRADB-GRAPHQL/tutorial/images/deploy-4.png" />
+   
 ## 2. Access your GitHub repository
 
   * Click on the `GitHub` in `Deploys from GitHub` to get back to your new repository.  Scroll to where you were in the README.
-    <details>
-    <summary>Show me! </summary>
-    <img src="tutorial/images/deploy-5.png" />
-    </details>
+    
+    Show me! 
+    <img src="https://github.com/TravelXML/NETFLIX-CLONE-WITH-ASTRADB-GRAPHQL/tutorial/images/deploy-5.png" />
+   
 
 ## 3. Follow Part 2 in **YOUR** Repository
 
@@ -808,7 +807,7 @@ netlify link
 
 *👁️ Expected output*
 
-![image](tutorial/images/netlify-link.png?raw=true)
+![image](https://github.com/TravelXML/NETFLIX-CLONE-WITH-ASTRADB-GRAPHQL/tutorial/images/netlify-link.png?raw=true)
 
 ✅ **Step 4e:** take the .env file upload it to netlify
  
