@@ -2,7 +2,7 @@
 # Netflix Clone Using Astra DB and GraphQL 
 
 <a href="https://github.com/TravelXML/NETFLIX-CLONE-WITH-ASTRADB-GRAPHQL" target=”_blank”>
-  <img align="center" src="https://github.com/TravelXML/NETFLIX-CLONE-WITH-ASTRADB-GRAPHQL/blob/main/tutorial/images/netflix-clone-astradb-graphql-node-prod.png" alt="Netflix Clone" align="top" />
+  [Netflix Clone App](https://github.com/TravelXML/NETFLIX-CLONE-WITH-ASTRADB-GRAPHQL/blob/main/tutorial/images/netflix-clone-astradb-graphql-node-prod.png)
 </a>
 
 <span align="right">[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/from-referrer/)[![License Apache2](https://img.shields.io/hexpm/l/plug.svg)](http://www.apache.org/licenses/LICENSE-2.0)</span>
@@ -18,10 +18,6 @@
 * GraphQL
 * Cassandra - Astra DB
 
-
-<!--- ENDEXCLUDE --->
-
-See the [Video Walkthrough](https://imgur.com/3ns3UJB) of what you will build!
 
 
 ## 🎯 Objectives
@@ -81,10 +77,10 @@ See the [Video Walkthrough](https://imgur.com/3ns3UJB) of what you will build!
 
 _Make sure to chose a password with minimum 8 characters, containing upper and lowercase letters, at least one number and special character_
 
-<a href="https://astra.dev/12-3"><img src="img/create_astra_db.png?raw=true" /></a>
-- <details><summary>Show me!</summary>
+<img src="img/create_astra_db.png?raw=true" />
+- Show me!
     <img src="https://github.com/TravelXML/NETFLIX-CLONE-WITH-ASTRADB-GRAPHQL/blob/main/tutorial/images/astra-create-db.gif" />
-</details>
+
 
 
 **Use the following values when creating the database**
