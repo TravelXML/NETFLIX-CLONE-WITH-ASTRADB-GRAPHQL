@@ -75,7 +75,7 @@
 
 _Make sure to chose a password with minimum 8 characters, containing upper and lowercase letters, at least one number and special character_
 
-<img src="img/create_astra_db.png?raw=true" />
+<img src="https://github.com/TravelXML/NETFLIX-CLONE-WITH-ASTRADB-GRAPHQL/img/create_astra_db.png?raw=true" />
 - Show me!
     <img src="https://github.com/TravelXML/NETFLIX-CLONE-WITH-ASTRADB-GRAPHQL/blob/main/tutorial/images/astra-create-db.gif" />
 
@@ -92,7 +92,7 @@ _You can technically use whatever you want and update the code to reflect the ke
 
 You will see your new database `pending` in the Dashboard.
 
-![image](./tutorial/images/db-pending.png)
+![image](https://github.com/TravelXML/NETFLIX-CLONE-WITH-ASTRADB-GRAPHQL/tutorial/images/db-pending.png)
 
 The status will change to `Active` when the database is ready, this will only take 2-3 minutes. You will also receive an email when it is ready.
 
