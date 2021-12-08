@@ -40,7 +40,7 @@
 - *What other prerequisites are there?*
 > * You will need a github account
 > * You will also need Netlify and Astra DB accounts, but we'll work through that in the exercises
-> * Use <img src="tutorial/images/chrome-logo.svg" height="20"/> Chrome or <img src="tutorial/images/firefox-logo.svg" height="20"/> Firefox for the best experience. Other browsers are great, but don't work well with the GitPod integration we use a bit later.
+> * Use <img src="https://github.com/TravelXML/NETFLIX-CLONE-WITH-ASTRADB-GRAPHQL/tutorial/images/chrome-logo.svg" height="20"/> Chrome or <img src="https://github.com/TravelXML/NETFLIX-CLONE-WITH-ASTRADB-GRAPHQL/tutorial/images/firefox-logo.svg" height="20"/> Firefox for the best experience. Other browsers are great, but don't work well with the GitPod integration we use a bit later.
 
 ## Table of contents
 
@@ -68,8 +68,6 @@
 # Part 1 - DB Setup & Data Ingest
 
 ## 1. Login or Register to AstraDB and create database
-
-> *When creating your instance use the promotion code **ANIA200** to get 200$ of free credit allowing you about 30 million writes + 30 Million reads  + 50GB a month of monthly storage!!*
 
 **`ASTRADB`** is the simplest way to run Cassandra with zero operations at all - just push the button and get your cluster. No credit card required, $25.00 USD credit every month, roughly 5M writes, 30M reads, 40GB storage monthly - sufficient to run small production workloads.  
 
@@ -123,13 +121,13 @@ The status will change to `Active` when the database is ready, this will only ta
 4. Click the link to your playground.
 
 *As shown in the picture below.*
-![image](img/open-playground.png?raw=true)
+<image src="https://github.com/TravelXML/NETFLIX-CLONE-WITH-ASTRADB-GRAPHQL/img/open-playground.png?raw=true" />
 
 > *Note that values in the picture do no reflect the database name `workshops`, reason is we do not reproduce every picture each time*
 
 ✅  **Step 3b:** In GraphQL Playground, **Populate HTTP HEADER** variable `x-cassandra-token` on the bottom of the page with your token as shown below
 
-![image](img/graphql-playground.png?raw=true)
+<img src="https://github.com/TravelXML/NETFLIX-CLONE-WITH-ASTRADB-GRAPHQL/img/graphql-playground.png?raw=true"/>
 
 ✅  **Step 3c:** In GraphQL Playground, create a table with the following mutation, making sure to replace `netflix` if you used a different name:
 
@@ -151,7 +149,7 @@ mutation {
 ```
 * Use the arrow in the middle of the screen to execute the query
 
-![image](tutorial/images/playground-1.png?raw=true)
+<img src="https://github.com/TravelXML/NETFLIX-CLONE-WITH-ASTRADB-GRAPHQL/tutorial/images/playground-1.png?raw=true" />
 
 [🏠 Back to Table of Contents](#table-of-contents)
 
@@ -161,7 +159,7 @@ mutation {
 
 ✅  **Step 4b:** Populate **HTTP HEADER** variable `x-cassandra-token` on the bottom of the page with your token as shown below (again !! yes this is not the same tab)
 
-![image](img/graphql-playground-2.png?raw=true)
+<img src="https://github.com/TravelXML/NETFLIX-CLONE-WITH-ASTRADB-GRAPHQL/img/graphql-playground-2.png?raw=true" />
 
 ✅  **Step 4c:** In GraphQL Playground,populate the `reference_list` table with the following values
 
@@ -257,7 +255,7 @@ query getAllGenre {
 ```
 
 *👁️ Expected output*
-![image](img/graphql-playground-3.png?raw=true)
+<img src="https://github.com/TravelXML/NETFLIX-CLONE-WITH-ASTRADB-GRAPHQL/img/graphql-playground-3.png?raw=true"/>
 
 [🏠 Back to Table of Contents](#table-of-contents)
 
@@ -289,7 +287,7 @@ mutation {
 ```
 
 *👁️ Expected output*
-![image](img/graphql-playground-4.png?raw=true)
+<img src="https://github.com/TravelXML/NETFLIX-CLONE-WITH-ASTRADB-GRAPHQL/img/graphql-playground-4.png?raw=true" />
 
 [🏠 Back to Table of Contents](#table-of-contents)
 
